@@ -11,7 +11,7 @@ function App() {
     // console.log("chai added", Date.now())
     if(chaiNum <20){
       // chaiNum = chaiNum + 1;
-      setChaiNum(chaiNum +1);
+      setChaiNum((prevCounter)=> prevCounter + 1);
       console.log(chaiNum);
     }
     
@@ -20,8 +20,9 @@ function App() {
   const removeValue = () =>{
 
     if(chaiNum > 0){
-    chaiNum = chaiNum - 1;
-    setChaiNum(chaiNum);
+    // chaiNum = chaiNum - 1;
+    setChaiNum((prevCounter)=> prevCounter - 1);
+    setChaiNum((prevCounter)=> prevCounter - 1);
     console.log(chaiNum);
     }
     
