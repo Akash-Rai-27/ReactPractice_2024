@@ -1,0 +1,26 @@
+https://medium.com/@igoraza/unveiling-the-power-of-useref-in-react-a-comprehensive-guide-99ba96b510d6
+
+the useRef hook stands as an indispensable tool for accessing DOM elements and managing state.
+
+What is useRef?
+
+The useRef hook, introduced in React 16.8, primarily serves two purposes:
+
+Accessing DOM Elements: Unlike state variables, which can trigger re-renders when updated, useRef allows direct access to DOM elements without affecting the application’s state.
+Storing Previous Values: useRef can be used to store the previous value of a state variable, providing a way to access its value prior to a re-render.
+
+
+
+1. Basic Usage: Referencing DOM Elements
+2. Storing Previous Values
+
+
+Refuse has numerous practical applications in React development, such as:
+
+- Input Field Manipulation: Accessing and manipulating input field values without re-rendering the component.
+
+- DOM Manipulation: Directly manipulating DOM elements for specific tasks, such as focusing on an input field.
+
+- Scroll Position Tracking: Tracking the scroll position to implement infinite scrolling or scroll-to-target functionality.
+
+- Caching Data: Storing data from API requests in useRef to avoid repeated fetches on subsequent renders.
