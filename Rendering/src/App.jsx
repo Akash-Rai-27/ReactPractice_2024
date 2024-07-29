@@ -1,20 +1,21 @@
 
 import './App.css'
-import AnalyticChart from './components/AnalyticChart'
-import AnalyticChartSec from './components/AnalyticChartSec'
-import AnalyticWithCal from './components/AnalyticWithCal'
-import DataTable from './components/DataTable'
-import DataTable2 from './components/DataTable2'
-import DeleteDialog from './components/DeleteDialog'
-import DeleteMain from './components/DeleteMain'
-import EventHandling from './components/EventHandling'
-import Gallery from './components/Gallery'
-import LearnChat from './components/LearnChat'
-import TableList from './components/TableList'
-import TableListCal from './components/TableListCal'
-import CountRenders from './components/useRef/CountRenders'
-import LearningRef from './components/useRef/LearningRef'
-import Timer from './components/useRef/Timer'
+// import AnalyticChart from './components/AnalyticChart'
+// import AnalyticChartSec from './components/AnalyticChartSec'
+// import AnalyticWithCal from './components/AnalyticWithCal'
+// import DataTable from './components/DataTable'
+// import DataTable2 from './components/DataTable2'
+// import DeleteDialog from './components/DeleteDialog'
+// import DeleteMain from './components/DeleteMain'
+// import EventHandling from './components/EventHandling'
+// import Gallery from './components/Gallery'
+// import LearnChat from './components/LearnChat'
+import SearchBar from './components/SearchBar/SearchBar'
+// import TableList from './components/TableList'
+// import TableListCal from './components/TableListCal'
+// import CountRenders from './components/useRef/CountRenders'
+// import LearningRef from './components/useRef/LearningRef'
+// import Timer from './components/useRef/Timer'
 
 function App() {
   
@@ -160,12 +161,13 @@ function App() {
         <h2>DataTable2</h2>
         <DataTable2/> */}
 
-        <h1>Learning useRef</h1>
+        {/* <h1>Learning useRef</h1> */}
         {/* <LearningRef/> */}
         {/* <CountRenders/> */}
-        <Timer/>
+        {/* <Timer/> */}
 
-
+          <h1>Search Bar</h1>
+        <SearchBar/>
     </>
   )
 }
